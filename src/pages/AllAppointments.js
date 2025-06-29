@@ -1,4 +1,4 @@
-// File: src/pages/AllAppointments.js
+
 import { useEffect, useState } from "react";
 import { getData, setData } from "../services/storage";
 import { Link } from "react-router-dom";
