@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> d6205c91da66850fa8a25db16e390bb75ca35f58
 import { useEffect, useState } from "react";
 import { getData } from "../services/storage";
 import { Link } from "react-router-dom";
