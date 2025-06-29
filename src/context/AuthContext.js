@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import { createContext, useContext, useEffect, useState } from "react";
+=======
+import { createContext, useContext, useState, useEffect } from "react";
+import { getData, setData } from "../services/storage";
+>>>>>>> d6205c91da66850fa8a25db16e390bb75ca35f58
 
 const AuthContext = createContext();
 
