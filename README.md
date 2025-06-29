@@ -52,7 +52,7 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 
 ##  Getting Started (Local Setup)
 
-```bash
+
 # Install dependencies
 npm install
 
@@ -63,4 +63,8 @@ npm start
 
 Data is stored in LocalStorage
 
-To see LocalStorage Click on Inspect in Browser -> Applications-> LocalStorage -> localhost 
+To see LocalStorage Click on Inspect in Browser -> Applications-> LocalStorage -> localhost
+
+If you are facing issues while running the project. Naviagte to package-lock.json and change reac-scripts to 5.0.1 and then start running again(npm start)
+
+
