@@ -36,6 +36,16 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 - **Email:** `john@entnt.in`
 - **Password:** `patient123`
 
+- While you are try to login with this credentials if you find invalid credentials
+- register with the new credentials as
+- **For Admin**
+- **Email:** `admin@entnt.in`
+- **Password:** `admin123`
+
+- **For Patient**
+- **Email:** `john@entnt.in`
+- **Password:** `patient123`
+
 ---
 
 ## 🛠️ Tech Stack
