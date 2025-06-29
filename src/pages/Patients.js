@@ -1,4 +1,4 @@
-// File: src/pages/Patients.js
+
 import { useState, useEffect } from "react";
 import { getData, setData } from "../services/storage";
 import AddIncidentForm from "../components/AddIncidentForm";
