@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { getData, setData } from "../services/storage";
 import { v4 as uuidv4 } from "uuid";
-import { convertToBase64 } from "../utils/fileUtils"; // ✅ base64 converter
+import { convertToBase64 } from "../utils/fileUtils"; //  base64 converter
 
 export default function AddIncidentForm({ patientId, onIncidentAdded }) {
   const [form, setForm] = useState({
@@ -11,7 +11,7 @@ export default function AddIncidentForm({ patientId, onIncidentAdded }) {
     appointmentDate: "",
   });
 
-  const [files, setFiles] = useState([]); // ✅ store uploaded files
+  const [files, setFiles] = useState([]); // store uploaded files
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -37,7 +37,7 @@ export default function AddIncidentForm({ patientId, onIncidentAdded }) {
       patientId,
       cost: 0,
       status: "Pending",
-      files: files, // ✅ include files in incident object
+      files: files, //  include files in incident object
     };
 
     const incidents = getData("incidents");
@@ -96,7 +96,7 @@ export default function AddIncidentForm({ patientId, onIncidentAdded }) {
         className="w-full mb-3 p-2 border rounded"
       />
 
-      {/* ✅ File Upload */}
+      {/*  File Upload */}
       <input
         type="file"
         multiple
@@ -104,7 +104,7 @@ export default function AddIncidentForm({ patientId, onIncidentAdded }) {
         className="w-full p-2 border rounded mb-3"
       />
 
-      {/* ✅ File Preview */}
+      {/*  File Preview */}
       {files.length > 0 && (
         <div className="space-y-2 mb-3">
           {files.map((f, i) => (
