@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Ensure Tailwind CSS is installed and PostCSS is configured to use tailwindcss plugin.
+   If you are seeing "Unknown at rule @tailwind", check your build setup. 
+   The following lines require Tailwind CSS and PostCSS configuration to work: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
