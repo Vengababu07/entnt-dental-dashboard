@@ -1,4 +1,4 @@
-// File: src/pages/Dashboard.js
+
 import { useEffect, useState } from "react";
 import { getData } from "../services/storage";
 import { Link } from "react-router-dom";
