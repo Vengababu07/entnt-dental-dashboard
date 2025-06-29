@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 🦷 ENTNT Dental Center Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboard built using **React** and **localStorage**. This system allows **Admins (Dentists)** and **Patients** to manage appointments, treatment records, and patient profiles efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Key Roles
 
-### `npm start`
+- **Admin (Dentist)**: Can view, add, delete patients, manage appointments, view calendar, revenue, and upload treatment records.
+- **Patient**: Can book appointments, view their treatment history, upload files, and see appointment costs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+✅ Login with Role-based Access  
+✅ LocalStorage data simulation (no backend)  
+✅ Add, Edit, Delete Patients (Admin only)  
+✅ Book Appointments with File Upload (Patient)  
+✅ Appointment Status Management (Admin)  
+✅ Auto-calculated Revenue (based on accepted appointments)  
+✅ Calendar View for Admins  
+✅ KPI Dashboard (Revenue, Top Patients, Upcoming Appointments)  
+✅ Fully Responsive  
+✅ Deployed via Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧪 Test Credentials
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Admin
+- **Email:** `admin@entnt.in`
+- **Password:** `admin123`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Patient (Example)
+- **Email:** `john@entnt.in`
+- **Password:** `patient123`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React (Functional Components)
+- React Router
+- Context API
+- TailwindCSS
+- localStorage (data persistence)
+- UUID for ID generation
+- File upload via base64 encoding
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Getting Started (Local Setup)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Install dependencies
+npm install
 
-## Learn More
+# Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ To see outputs navigate to the public -> screenshots -> images
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Data is stored in LocalStorage
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To see LocalStorage Click on Inspect in Browser -> Applications-> LocalStorage -> localhost 
