@@ -13,16 +13,16 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 
 ## Features
 
-✅ Login with Role-based Access  
-✅ LocalStorage data simulation (no backend)  
-✅ Add, Edit, Delete Patients (Admin only)  
-✅ Book Appointments with File Upload (Patient)  
-✅ Appointment Status Management (Admin)  
-✅ Auto-calculated Revenue (based on accepted appointments)  
-✅ Calendar View for Admins  
-✅ KPI Dashboard (Revenue, Top Patients, Upcoming Appointments)  
-✅ Fully Responsive  
-✅ Deployed via Vercel
+Login with Role-based Access  
+LocalStorage data simulation (no backend)  
+Add, Edit, Delete Patients (Admin only)  
+Book Appointments with File Upload (Patient)  
+Appointment Status Management (Admin)  
+Auto-calculated Revenue (based on accepted appointments)  
+Calendar View for Admins  
+KPI Dashboard (Revenue, Top Patients, Upcoming Appointments)  
+Fully Responsive  
+Deployed via Vercel
 
 ---
 
