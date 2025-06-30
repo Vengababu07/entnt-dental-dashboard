@@ -35,17 +35,6 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 ### Patient (Example)
 - **Email:** `john@entnt.in`
 - **Password:** `patient123`
-
-- While you are try to login with this credentials if you find invalid credentials
-- register with the new credentials as
-- **For Admin**
-- **Email:** `admin@entnt.in`
-- **Password:** `admin123`
-
-- **For Patient**
-- **Email:** `john@entnt.in`
-- **Password:** `patient123`
-
 ---
 
 ## 🛠️ Tech Stack
@@ -69,7 +58,7 @@ npm install
 # Start the development server
 npm start
 
- To see outputs navigate to the public -> screenshots -> images
+ To see outputs navigate to the public -> screenshots
 
 Data is stored in LocalStorage
 
