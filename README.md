@@ -6,7 +6,7 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 
 Setup Instructions
 Clone Repository
-git clone https://github.com/your-username/entnt-dental-dashboard.git
+https://github.com/Vengababu07/entnt-dental-dashboard.git
 cd entnt-dental-dashboard
 
 **Install Dependencies
