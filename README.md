@@ -4,66 +4,73 @@ Welcome to the **ENTNT Dental Center** project — a responsive frontend dashboa
 
 ---
 
-## Key Roles
+Setup Instructions
+Clone Repository
+git clone https://github.com/your-username/entnt-dental-dashboard.git
+cd entnt-dental-dashboard
 
-- **Admin (Dentist)**: Can view, add, delete patients, manage appointments, view calendar, revenue, and upload treatment records.
-- **Patient**: Can book appointments, view their treatment history, upload files, and see appointment costs.
-
----
-
-## Features
-
-Login with Role-based Access  
-LocalStorage data simulation (no backend)  
-Add, Edit, Delete Patients (Admin only)  
-Book Appointments with File Upload (Patient)  
-Appointment Status Management (Admin)  
-Auto-calculated Revenue (based on accepted appointments)  
-Calendar View for Admins  
-KPI Dashboard (Revenue, Top Patients, Upcoming Appointments)  
-Fully Responsive  
-Deployed via Vercel
-
----
-
-## 🧪 Test Credentials
-
-### Admin
-- **Email:** `admin@entnt.in`
-- **Password:** `admin123`
-
-### Patient (Example)
-- **Email:** `john@entnt.in`
-- **Password:** `patient123`
----
-
-## 🛠️ Tech Stack
-
-- React (Functional Components)
-- React Router
-- Context API
-- TailwindCSS
-- localStorage (data persistence)
-- UUID for ID generation
-- File upload via base64 encoding
-
----
-
-##  Getting Started (Local Setup)
-
-
-# Install dependencies
+**Install Dependencies
 npm install
 
-# Start the development server
+**Run the App
 npm start
 
- To see outputs navigate to the public -> screenshots
+**Build for Production
+npm run build
+**Default Users
+**Credentials are stored in localStorage under the key users.
+**Admin
+Email: admin@entnt.in
+Password: admin123
 
-Data is stored in LocalStorage
+**Patient
+Email: john@entnt.in
+Password: patient123
 
-To see LocalStorage Click on Inspect in Browser -> Applications-> LocalStorage -> localhost
+Admins can add new patients and appointments.
 
-If you are facing issues while running the project. Naviagte to package-lock.json and change reac-scripts to 5.0.1 and then start running again(npm start)
+**Core Features
+Authentication (Simulated)
+Email/password login
+Role-based access (Admin/Patient)
+Session persistence via localStorage
+Admin Dashboard
+View KPIs: revenue, appointments, patients
+Manage all patients and their details
+Add, update, and delete appointments
+Upload treatment files (base64)
+Patient Dashboard
+Book new appointments
+View history and upcoming visits
+See cost, treatment info, and uploaded files
+Calendar View
+Weekly/monthly view of all appointments
+Invoice Generator
+Print-friendly invoice for each appointment
 
+**Technical Decisions
+State Management:
+Used React Context API for lightweight authentication and role-based access.
 
+**Data Handling:
+All data (users, patients, incidents) is persisted via localStorage. File uploads are stored as base64 strings.
+
+**Styling:
+TailwindCSS used for consistent design and rapid development.
+
+Routing:
+Protected routes implemented using a custom ProtectedRoute wrapper with role restrictions.
+
+**Responsiveness:
+Fully responsive layout tested on desktop and mobile.
+
+**Known Issues
+Data is device-bound. Since localStorage is used, data won’t sync across devices unless manually seeded.
+No actual backend: user registration or reset password is simulated only.
+File uploads are stored in base64 and may increase localStorage size for larger files.
+
+Screenshots
+Located in the /screenshots folder or attached to the GitHub repository
+
+Deployment
+Deployed via Vercel. Any git push to main triggers auto deployment.
